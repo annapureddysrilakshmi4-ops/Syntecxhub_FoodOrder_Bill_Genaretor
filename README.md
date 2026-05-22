@@ -38,7 +38,7 @@ public class RestaurantBill {
         int choice;
         char more;
 
-        do {
+        
             System.out.println("\n===== MENU =====");
 
             for(int i=0; i<count; i++) {
@@ -47,7 +47,7 @@ public class RestaurantBill {
 
             System.out.println((count+1)+". Add Item");
             System.out.println((count+2)+". Remove Item");
-
+         do{
             System.out.print("Enter choice: ");
             choice = sc.nextInt();
 
